@@ -1,0 +1,1 @@
+web: gunicorn joke_app:app --log-file -
