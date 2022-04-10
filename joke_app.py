@@ -12,8 +12,8 @@ from linebot.models import (
 import os
 
 #token取得---------------------------------------------------
-line_bot_api = LineBotApi('aBtHSefNk3V9goHEQY7OYUJwWUZN9qH7aWUujZtfkYwmvLLPkAAwpl3TFJgf6rZ4+bIr1ccwQq4S+aEcsrLM/8iuL/JPENeiMq5I/GMgHCQ7N60IIARN6VWzPxhdTJiHPmtPnyd/nvcS68vrDUBFCAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('bc12a34fcab09722e33a1af8be4ed810')
+line_bot_api = LineBotApi('token')　#botのtokenをいれる
+handler = WebhookHandler('secret')　#botのsecretをいれる
 #---------------------------------------------------------------
 
 
